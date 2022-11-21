@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 def create_graph():
     G = nx.DiGraph()
     G.add_edge('Unidade 1','Incinerador 1',weight = 30)
-    G.add_edge('Unidade 1','Incinerador 2',weight = 36)
-    G.add_edge('Unidade 2','Incinerador 1',weight = 35)
+    G.add_edge('Unidade 1','Incinerador 2',weight = 5)
+    G.add_edge('Unidade 2','Incinerador 1',weight = 36)
     G.add_edge('Unidade 2','Incinerador 2',weight = 42)
 
     G.add_edge('Incinerador 1','Aterro 1',weight = 5)
